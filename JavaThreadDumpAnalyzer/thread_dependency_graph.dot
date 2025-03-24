@@ -1,0 +1,14 @@
+digraph ThreadGraph {
+"RMI TCP Connection(2)-192.168.31.52" -> "RMI TCP Connection(2)-192.168.31.52" [label="lock: 0x0525f7a0
+Time: "];
+"JMX server connection timeout 16" -> "JMX server connection timeout 16" [label="lock: 0x0525fcc8
+Time: "];
+"RMI Scheduler(0)" -> "UNKNOWN" [label="lock: 0x0a3e5b98
+Time: "];
+"Thread-3" -> "Thread-3" [label="lock: 0x0a3e6570
+Time: "];
+"Finalizer" -> "Finalizer" [label="lock: 0x0a3e68b8
+Time: "];
+"Reference Handler" -> "Reference Handler" [label="lock: 0x0a3e68e0
+Time: "];
+}
